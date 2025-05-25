@@ -4,7 +4,7 @@ This project was developed as part of the Computer Programming & Data Science �
 
 The project consists of two main components:
 - Travel Behavior Analysis: Modeling how the intensity of social trips decays with distance using exponential, power-law, Newling, and weak decay functions. Results are visualized through decay curves and spatial maps.
-- Business Site Selection**: Solving a fuzzy Maximum Coverage Location Problem (Fuzzy-MCLP) using Google OR-Tools to identify restaurant locations that maximize weighted coverage, based on residents’ travel tolerance.
+- Business Site Selection: Solving a fuzzy Maximum Coverage Location Problem (Fuzzy-MCLP) using Google OR-Tools to identify restaurant locations that maximize weighted coverage, based on residents’ travel tolerance.
 
 
 Installation Instructions：
