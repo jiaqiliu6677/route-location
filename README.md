@@ -1,2 +1,13 @@
-# route-location
-This project was developed as part of the "Computer Programming & Data Science – An Introduction with Python" course at ETH Zurich. It combines data science techniques with spatial analysis to explore two main components: (1) travel behavior modeling and (2) optimal site selection in Zurich. The first part investigates how the frequency of visits to social destinations decays with distance, using various functional forms such as exponential, power-law, and Newling decay. Curve fitting was performed per destination zone, and the results were visualized through average decay plots and a static map of Zurich's spatial decay patterns. In the second part, a fuzzy Maximum Coverage Location Problem (Fuzzy-MCLP) model was built using Google OR-Tools to identify optimal locations for new restaurants. Individual travel thresholds were used to define fuzzy coverage coefficients, and the objective was to maximize weighted population coverage. Final outputs include an interactive map showing the selected restaurant sites and spatial coverage zones. The project explores how geospatial libraries, optimization techniques, and Python programming can be integrated to support urban planning and location-based decision-making.
+Travel Behavior Analysis and Business Site Selection in Zurich
+
+This project was developed as part of the Computer Programming & Data Science – An Introduction with Python course at ETH Zurich. It integrates data science, geospatial analysis, and optimization techniques to analyze intra-urban travel behavior and determine optimal locations for new restaurants in the city of Zurich.
+
+The project consists of two main components:
+- Travel Behavior Analysis: Modeling how the intensity of social trips decays with distance using exponential, power-law, Newling, and weak decay functions. Results are visualized through decay curves and spatial maps.
+- Business Site Selection**: Solving a fuzzy Maximum Coverage Location Problem (Fuzzy-MCLP) using Google OR-Tools to identify restaurant locations that maximize weighted coverage, based on residents’ travel tolerance.
+
+
+Installation Instructions：
+
+Before running the code, install the following Python packages:
+pandas geopandas osmnx networkx folium contextily numpy matplotlib ortools tqdm
